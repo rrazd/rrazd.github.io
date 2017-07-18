@@ -1,0 +1,11 @@
+name: Portfolio Site by Rashna Razdan
+markdown: redcarpet
+auto: true
+comments: true
+safe: false
+# analytics :
+#   provider : google
+#   google : 
+#       tracking_id : 'UA-43164045-1'
+#   getclicky :
+#     site_id :

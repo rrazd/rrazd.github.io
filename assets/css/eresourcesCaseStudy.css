@@ -1,0 +1,107 @@
+/* Main Header Banner */
+
+.eresources-banner {
+  background-image: url(../images/eresources/eresources-banner.jpg);
+}
+.eresources-banner-layer {
+  background-color: rgba(68, 68, 68, 0.76);
+}
+img.eresources-logo {
+  width: 100%;
+  padding-bottom: 15px;
+  height: 100%;
+}
+/* End of Main Header Banner */
+
+/* Research Summary */
+
+.eresources-research-section-img-left {
+  width: 96.27%;
+}
+.eresources-research-section-img-right {
+  width: 100%;
+  padding: 0 0 3px 0;
+}
+.eresources-research-right-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: initial;
+}
+/* End of Research Summary */
+
+/* IA */
+.eresources-no-top-margin {
+  margin-top: 0;
+}
+/* End of IA */
+
+/* Visuals */
+.eresources-four-five-results-container {
+  padding-top: 40px;
+}
+.eresources-palette-img, .eresources-comp-img {
+  width: 100%;
+  padding: 30px 0;
+}
+.eresources-browser-visual {
+  align-self: flex-end;
+  padding-top: 80px;
+}
+/* End of Visuals */
+
+/* Prototyping */
+/* End of Prototyping */
+
+/* Results */
+.eresources-result-section {
+  background: linear-gradient(180deg, #1C112B, #1A1B1D);
+  margin-top: 0;
+  padding: 50px 0;
+}
+.eresources-result-section .section-number-top,
+.eresources-result-section .section-title,
+.eresources-result-section .description {
+  color: #ffffff;
+}
+/* End of Results */
+
+
+@media only screen and (min-width: 846px) {
+  .banner .right-container {
+    width: 61%;
+  }
+  .eresources-research-section-right {
+    width: 54%;
+  }
+  .eresources-research-section-left {
+    width: 41%;
+  }
+  .eresources-img-description-prototype {
+    padding-bottom: 40px;
+  }
+  .eresources-img-description-result {
+    padding-top: 10px;
+  }
+}
+@media only screen and (min-width: 1121px) {
+  .eresources-research-section-right {
+    width: 48%;
+  }
+  .eresources-research-section-left {
+    width: 40%;
+  }
+  .eresources-img-description-result {
+    padding-top: 60px;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .eresources-result-section {
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .eresources-research-section-img-right {
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  <meta name="author" content="Rashna Razdan">
+
+  <link rel="stylesheet" href="assets/css/jquery.fullPage.css">
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="stylesheet" href="assets/css/three.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="apple-touch-icon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="apple-touch-icon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffff">
+
+  <style type="text/css">
+    .loader {
+      height: 100vh;
+      width: 100vw;
+      background-color: #fff;
+      opacity: 1;
+      transition: all 0.5s ease;
+      position: fixed;
+      z-index: 10;
+    }
+  </style>
+
+  <title>{{ page.title }}</title>
+
+</head>
+<body>
+  <div class="loader"></div>
+  {% include homeHeader.html %}
+  <ul id="page-menu">
+    <li data-menuanchor="welcome">
+      <a href="#welcome">01</a>
+      <div class="v-line"></div>
+    </li>
+    <li data-menuanchor="caseStudy1">
+      <a href="#caseStudy1">02</a>
+      <div class="v-line"></div>
+    </li>
+    <li data-menuanchor="caseStudy2">
+      <a href="#caseStudy2">03</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+    <li data-menuanchor="caseStudy3">
+      <a href="#caseStudy3">04</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+    <li data-menuanchor="allProjects">
+      <a href="#allProjects">05</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+    <li data-menuanchor="about">
+      <a href="#about">06</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+    <li data-menuanchor="contact">
+      <a href="#contact">07</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+  </ul>
+
+  <div id="fullpage">
+    <div class="section section-welcome">
+      <div id="three-js-container"></div>
+      <div class="section-content">
+        <h3 class="hero-name">rashna razdan</h3>
+        <h1 class="hero-tagline">UX Designer</h1>
+        <a href="#contact" class="btn btn-main">GET IN TOUCH</a>
+      </div>
+      <div class="go-down">
+        <img data-src="assets/images/down-arrow.svg">
+      </div>
+    </div>
+    <div class="section section-caseStudy1">
+      <div class="case-text left">
+        <div class="case-title">NexJ Health</div>
+        <div class="description case-descriptor-space">UX design and development of responsive cloud based platform.</div>
+        <div class="description">
+          <a href="nexjCaseStudy" class="blue-link animated-link">
+            <span>
+              View case study <img class="arrow" data-src="assets/images/right_arrow.svg">
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="nexj">
+        <img data-src="assets/images/caseStudy1_human.png" class="nexj-human">
+        <div class="screen">
+          <video class="nexj-video" poster="assets/images/nexj-video-poster.png" data-autoplay>
+            <source data-src="assets/videos/nexj_macbook_video.mp4" type="video/mp4">
+            <source data-src="assets/videos/nexj_macbook_video.webm" type="video/webm">
+          </video>
+        </div>
+        <img class="macbook" data-src="assets/images/caseStudy1.png">
+      </div>
+    </div>
+    <div class="section section-caseStudy2">
+      <div class="ipad">
+        <img data-src="assets/images/caseStudy2.png" class="case-img left ipad-body">
+        <img data-src="assets/images/caseStudy2-shadow.png" class="shadow">
+      </div>
+      <div class="case-text">
+        <div class="case-title">eResources</div>
+        <div class="description case-descriptor-space">UX/UI design of responsive web site for IT on Demand, an IT management service.</div>
+        <div class="description">
+          <a href="eresourcesCaseStudy" class="green green-link animated-link">
+            <span>
+              View case study <img class="arrow" data-src="assets/images/right_arrow_green.svg">
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="section section-caseStudy3">
+      <div class="case-text left">
+        <div class="case-title">Iteris</div>
+        <div class="description case-descriptor-space">
+          In-depth competitive research, information architecture and UX design of responsive website.
+        </div>
+        <div class="description">
+          <a href="iterisCaseStudy" class="blue-link animated-link">
+            <span>
+              View case study <img class="arrow" data-src="assets/images/right_arrow.svg">
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="iteris-devices">
+        <div class="screen">
+          <video class="iteris-video" poster="assets/images/iteris-video-poster.png" data-autoplay loop>
+            <source data-src="assets/videos/caseStudy3_imac_video.mp4" type="video/mp4">
+            <source data-src="assets/videos/caseStudy3_imac_video.webm" type="video/webm">
+          </video>
+        </div>
+        <img class="imac" data-src="assets/images/caseStudy3_imac.png">
+        <img class="tablet" data-src="assets/images/caseStudy3_tablet.png">
+      </div>
+    </div>
+    <div class="section section-allProjects">
+      <div class="all-projects-container">
+        <div class="large-title  check-out-more">See <span class="blue-text">all</span> of it
+        </div>
+        <div class="description all-projects-subtitle">
+          The featured case studies seen above illustrate my user-centered design approach. As a UX designer I have worked with companies of all sizes. Have a look at my work!
+        </div>
+        <a href="/allProjects.html" class="btn btn-blue">
+          SEE ALL PROJECTS
+        </a>
+        <div class="client-container">
+          <div class="description emphasize client-subtitle">
+             California is my home base, but my clients can be anywhere in the world.
+          </div>
+          <div class="client-list-container">
+            <div id="logo-container1" class="logo-container"><img src="assets/images/logos/weka.svg"></div>
+            <div id="logo-container2" class="logo-container"><img src="assets/images/logos/couchbase.svg"></div>
+            <div id="logo-container3" class="logo-container"><img src="assets/images/logos/mcafee.svg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-about">
+      <div class="about-me">
+        <h1 class="aloha large-title">Aloha.</h1>
+        <div class="about-me-blurb">
+          <p>
+            Hi, I am Rashna. I am a <span class="emphasize">UX Designer</span> at WebEnertia who loves both <span class="emphasize">design *and* code</span>. With a degree in Engineering and several years of industry design experience, I can tackle any design problem. Apart from creating user-friendly design, I enjoy acing tennis matches and traveling.
+          </p>
+          <p class="my-approach">
+          <span class="emphasize">My expertise:</span> information architecture, interaction design and prototyping.
+          </p>
+          <p class="my-experience">
+          <span class="emphasize">My approach:</span> I combine user and business goals with technical implications to create successful products.
+          </p>
+        </div>
+        <a href="http://www.linkedin.com/in/rashnarazdan" target="_blank" class="btn btn-about-me-linkedin">SEE LINKEDIN</a>
+        <a href="assets/files/resume.pdf" target="_blank" class="btn btn-about-me-resume">SEE RESUME</a>
+      </div>
+      <div class="timeline"><img data-src="assets/images/timeline.svg"></div>
+    </div>
+    <div class="section section-contact">
+      <div class="contact-wrapper">
+        <div class="my-picture-container">
+            <img class="my-picture" data-src="assets/images/me.png">
+            <img class="hire-me" data-src="assets/images/bubble.svg">
+        </div>
+        <div class="contact-tagline">
+          Looking for a UX Designer?
+        </div>
+        <a class="btn btn-green">
+          GET IN TOUCH
+        </a>
+        <a class="btn btn-blue">
+          SEE ALL PROJECTS
+        </a>
+      </div>
+      {% include footer.html %}
+    </div>
+  </div>
+  <script src="assets/js/ext/three.js"></script>
+  <script src="assets/js/initThree.js"></script>
+  <script src="assets/js/ext/projector.js"></script>
+  <script src="assets/js/ext/renderableVertex.js"></script>
+  <script src="assets/js/ext/canvasRenderer.js"></script>
+  <script src="assets/js/ext/jquery-3.1.1.min.js"></script>
+  <script src="assets/js/ext/jquery.fullPage.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

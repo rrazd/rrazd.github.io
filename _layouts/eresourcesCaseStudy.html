@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  <meta name="author" content="Rashna Razdan">
+
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="stylesheet" href="assets/css/caseStudy.css">
+  <link rel="stylesheet" href="assets/css/eresourcesCaseStudy.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="apple-touch-icon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="apple-touch-icon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffffff">
+
+  <style type="text/css">
+    .loader {
+      height: 100vh;
+      width: 100vw;
+      background-color: #ffffff;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+      position: fixed;
+      z-index: 1;
+    }
+  </style>
+
+  <title>{{ page.title }}</title>
+
+</head>
+<body>
+  <div class="loader"></div>
+  {% include caseStudyHeader.html %}
+  <div class="eresources-banner banner">
+    <div class="banner-layer eresources-banner-layer">
+      <div class="container-width flex-container">
+        <div class="left-container">
+          <img class="eresources-logo" src="assets/images/eresources/eresources-logo.png">
+          <div class="banner-description" style="font-family: 'Proxima_nova_bold'">
+            <canvas class="canvas-text" data-text="A fresh new look for"></canvas>
+            <canvas class="canvas-text" data-text="information technology."></canvas>
+          </div>
+        </div>
+        <div class="right-container">
+          <img class="banner-display lazy" data-original="assets/images/eresources/banner-display.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-summary">
+   <div class="container-width flex-container">
+      <div class="story">
+        <div class="description">
+          eResources is a full-service technology firm. As the lead UX/UI designer my task was to create a fresh new architecture and design for their IT on Demand microsite. In particular the client wanted me to to simply navigation, showcase all their IT solutions and structure their blog to optimized for content discovery.
+        </div>
+      </div>
+      <div class="role-section">
+        <div class="technologies">
+          <div class="header">Technologies</div>
+          <ul>
+            <li>SKETCH</li>
+            <li>PHOTOSHOP</li>
+            <li>INVISION</li>
+            <li>BOOTSTRAP GRID</li>
+          </ul>
+        </div>
+        <div class="solutions">
+          <div class="header">Solutions Provided</div>
+          <ul>
+            <li>RESEARCH</li>
+            <li>INFORMATION ARCHITECTURE</li>
+            <li>INTERACTION DESIGN</li>
+            <li>VISUAL DESIGN</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="research-section">
+    <div class="container-width flex-container">
+      <div class="research-section-left eresources-research-section-left">
+        <div class="section-number-top">
+          01
+        </div>
+        <div class="section-title">
+          Research
+        </div>
+        <div class="description">
+          During the discovery phase I scoped the project's UX/UI effort, conducted an analytics review and took a good hard look at the competition. Behavioral data collected by Google Analytics showed how users were interacting with the site and where they were dropping off.
+        </div>
+        <img class="research-section-img eresources-research-section-img-left lazy" data-original="assets/images/eresources/eresources-process.jpg">
+        <div class="label">
+          <div class="blue-label-line label-line"></div>
+          <div class="label-title">Analytics Review</div>
+          <div class="label-description">
+            Finding meaningful patterns in data.
+          </div>
+        </div>
+      </div>
+      <div class="research-section-right eresources-research-section-right">
+        <img class="research-section-img eresources-research-section-img-right lazy" data-original="assets/images/eresources/eresources-competitive.jpg">
+        <div class="label eresources-research-right-label">
+          <div class="blue-label-line label-line"></div>
+          <div class="label-title">Gathering inspiration</div>
+          <div class="label-description">
+            Canvassing the industry.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="two-three-container">
+    <div class="container-width">
+      <div class="ia-section flex-container">
+        <div class="ia-left">
+          <img class="ia-section-img lazy" data-original="assets/images/eresources/eresources-sitemap.png">
+          <div class="label">
+            <div class="green-label-line label-line"></div>
+            <div class="label-title">Site organization</div>
+            <div class="label-description">
+              Logical, streamlined architecture.
+            </div>
+          </div>
+        </div>
+        <div class="ia-right">
+          <div class="section-number-top">
+            02
+          </div>
+          <div class="section-title">
+            Information Architecture
+          </div>
+          <div class="description">
+            The IA challenge was to simplify the navigation for the target audience. In the old site information was placed in a disjointed and unintuitive way. The proposed sitemap and navigation helped guide the user to the correct page with minimal cognitive effort.
+          </div>
+        </div>
+      </div>
+      <div class="id-section flex-container">
+        <div class="id-section-wireframe">
+          <div class="section-number-top">
+              03
+          </div>
+          <div class="section-title">
+            Interaction Design
+          </div>
+          <div class="emphasize section-sub-title">Wireframes</div>
+          <div class="description">
+            This stage involved analyzing how content will be structured, where data will come from and how functionality will be developed. The wireframes also documented how the page will be laid out and which areas will receive more emphasis.
+          </div>
+        </div>
+        <img class="lazy wireframe-img" data-original="assets/images/eresources/eresources-wireframe.png">
+        <div class="label wireframe-label">
+          <div class="green-label-line label-line"></div>
+          <div class="label-title">Multiple wireframes</div>
+          <div class="label-description">
+            From left to right: Homepage, Blog grid layout, Blog list layout.
+          </div>
+        </div>
+        <div class="emphasize section-sub-title eresources-no-top-margin">Homepage</div>
+        <div class="description id-section-wireframe">
+          The homepage wireframe has a legend explaining the overall story that is being told by the layout. Visually documenting this helped focus and align the client during presentations.
+        </div>
+        <div class="emphasize section-sub-title">Search and filter</div>
+        <div class="description id-section-wireframe">
+          Each blog category has an associated icon which is displayed on the card. Testing confirmed that this helped the user to quickly scan and identify each article's category. The user can select multiple categories at a time via the dropdown. The dropdown would indicate the options selected via the label “{n} categories selected”
+          A 'Reset' button appears near the filter header once the user has selected at least one filter and shifted focus.
+        </div>
+        <div class="emphasize section-sub-title">Scalability</div>
+        <div class="description id-section-wireframe">
+          The wireframes considers scalability: if in the future eResources has more than 7 article categories a search input would be included in the dropdown. This would allow users to efficiently lookup options.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="four-five-results-container eresources-four-five-results-container">
+      <div class="container-width visual-design flex-container">
+        <div class="visual-img-description clustered-text">
+          <div class="section-number-top">
+              04
+          </div>
+          <div class="section-title">
+            Visual Design
+          </div>
+          <div class="description">
+            After completing the UX stage, I translated the wireframes into a polished user interface. The Brand Guide gave some direction in terms of suggested color usage but the client was receptive to additions and tweaks.
+          </div>
+          <div class="flex-container visual-bullet-point">
+            <img class="lazy" data-original="assets/images/eresources/eresources-visual-icon1.svg">
+            <span class="bullet-point-description description">
+              I used Proxima Nova for body text due to its legibility and sincere nature.
+            </span>
+          </div>
+          <div class="flex-container visual-bullet-point">
+            <img class="lazy" data-original="assets/images/eresources/eresources-visual-icon2.svg">
+            <span class="bullet-point-description description">
+              I added an additional blue for action items to give a tech-y feeling.
+            </span>
+          </div>
+        </div>
+        <div class="side-visual visual-img-container">
+          <img class="lazy eresources-palette-img" data-original="assets/images/eresources/eresources-color.png">
+          <div class="label">
+            <div class="blue-label-line label-line"></div>
+            <div class="label-title">Colors used</div>
+            <div class="label-description">
+              Introduced a few additional secondary colors.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-width visual-design eresources-browser-visual flex-container">
+        <div>
+          <img class="lazy eresources-comp-img" data-original="assets/images/eresources/eresources-visual.jpg">
+          <div class="label">
+            <div class="blue-label-line label-line"></div>
+            <div class="label-title">Final design</div>
+            <div class="label-description">
+              The designs went through stakeholder reviews.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-container container-width prototype-section">
+        <img class="lazy side-visual prototype-img" data-original="assets/images/eresources/eresources-prototype.jpg">
+        <div class="img-description-prototype eresources-img-description-prototype clustered-text">
+          <div class="section-number-top">
+              05
+          </div>
+          <div class="section-title">
+            Responsive
+          </div>
+          <div class="description">
+            Throughout the wireframing, design and development process the layout and components within it were optimized to adapt to any device, screen, and resolution.
+          </div>
+          <div class="flex-container visual-bullet-point">
+            <img class="lazy" data-original="assets/images/eresources/eresources-responsive-icon1.svg">
+            <span class="bullet-point-description description">
+              Content was prioritized intelligently so users can find what they need on any screen size.
+            </span>
+          </div>
+          <div class="flex-container visual-bullet-point">
+            <img class="lazy" data-original="assets/images/eresources/eresources-responsive-icon2.svg">
+            <span class="bullet-point-description description">
+              Performance was considered when devising components to be used within the layout.
+            </span>
+          </div>
+          <div class="flex-container visual-bullet-point">
+            <img class="lazy" data-original="assets/images/eresources/eresources-responsive-icon3.svg">
+            <span class="bullet-point-description description">
+              We strived for consistent user experience accross a number of devices.
+            </span>
+          </div>
+        </div>
+        </div>
+        <div class="result-section eresources-result-section">
+        <div class="flex-container container-width">
+          <div class="image-description-result clustered-text eresources-img-description-result">
+            <div class="section-number-top">
+              06
+            </div>
+            <div class="section-title">
+              Results
+            </div>
+            <div class="description">
+              This was a high impact project with a hard deadline. I was able to meet all due dates and in the end, I delivered clean PSDs to the eResources Development team. It was rewarding to be able to apply both my UX and UI design skills.
+            </div>
+          </div>
+          <img class="lazy side-visual result-img" data-original="assets/images/eresources/eresources-result.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="next-steps">
+    <div class="section-title">Be inspiring</div>
+    <a href="allProjects" class="btn btn-blue-outline">SEE ALL PROJECTS</a>
+  </div>
+  <div class="next-prev-links flex-container">
+    <a class="link-box emphasize" href="nexjCaseStudy">
+      <img class="previous-link-arrow" src="assets/images/caseStudy-left-arrow.svg">
+      <span class="previous-link-text">Previous: NexJ</span>
+    </a>
+    <a class="link-box emphasize" href="iterisCaseStudy">
+      <span class="next-link-text">Next: Iteris</span>
+      <img class="next-link-arrow" src="assets/images/caseStudy-right-arrow.svg">
+    </a>
+  </div>
+  {% include footer.html %}
+  <script src="assets/js/ext/jquery-3.1.1.min.js"></script>
+  <script src="assets/js/ext/jquery.lazyload.js"></script>
+  <script src="assets/js/caseStudy.js"></script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  <meta name="author" content="Rashna Razdan">
+
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="stylesheet" href="assets/css/caseStudy.css">
+  <link rel="stylesheet" href="assets/css/nexjCaseStudy.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="apple-touch-icon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="apple-touch-icon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffffff">
+
+  <style type="text/css">
+    .loader {
+      height: 100vh;
+      width: 100vw;
+      background-color: #ffffff;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+      position: fixed;
+      z-index: 1;
+    }
+  </style>
+
+  <title>{{ page.title }}</title>
+
+</head>
+<body>
+  <div class="loader"></div>
+  {% include caseStudyHeader.html %}
+  <div class="nexj-banner banner">
+    <div class="banner-layer">
+      <div class="container-width flex-container">
+        <div class="left-container">
+          <img class="nexj-logo lazy" data-original="assets/images/nexj/nexj-logo.png">
+          <div class="banner-description" style="font-family: 'Proxima_nova_bold'">
+            <canvas class="canvas-text" data-text="Creating the future of"></canvas>
+            <canvas class="canvas-text" data-text="online healthcare."></canvas>
+            <!-- Creating the future of online healthcare. -->
+          </div>
+        </div>
+        <div class="right-container">
+          <img class="banner-display lazy" data-original="assets/images/nexj/banner-display.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-summary">
+   <div class="container-width flex-container">
+      <div class="story">
+        <div class="description">
+          The task at hand was to create a digital platform for health management. As a UX developer, I worked hard to present complex health data in an intuitive manner. The work was done using an agile methodology with 2 week sprints. Design strived to be one sprint ahead of development to be able solidify UI/UX before hand offs. <a href="http://www.nexjhealth.com/solutions/nexj-connected-wellness/" target="_blank">View product site.</a>
+        </div>
+      </div>
+      <div class="role-section">
+        <div class="technologies">
+          <div class="header">Technologies</div>
+          <ul>
+            <li>HTML5/CSS3/LESS</li>
+            <li>JAVASCRIPT/JQUERY</li>
+            <li>MONGODB</li>
+            <li>SKETCH</li>
+          </ul>
+        </div>
+        <div class="solutions">
+          <div class="header">Solutions Provided</div>
+          <ul>
+            <li>RESEARCH</li>
+            <li>INFORMATION ARCHITECTURE</li>
+            <li>INTERACTION DESIGN</li>
+            <li>VISUAL DESIGN/PROTOTYPE</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="research-section">
+    <div class="container-width flex-container">
+      <div class="research-section-left">
+        <div class="section-number-top">
+          01
+        </div>
+        <div class="section-title">
+          Research
+        </div>
+        <div class="description">
+          My research included competitive analysis and discovering the userbase’s <span class="emphasize">demographic and use cases</span>. Evaluating competing product’s usability and interaction design and understanding the audience helped to optimize the application's UX.
+        </div>
+        <img class="research-section-img nexj-research-section-img lazy" data-original="assets/images/nexj/nexj-competitive.jpg">
+        <div class="label">
+          <div class="blue-label-line label-line"></div>
+          <div class="label-title">Competitive Research</div>
+          <div class="label-description">
+            Some of the UI/UX references we evaluated.
+          </div>
+        </div>
+      </div>
+      <div class="research-section-right description">
+        <div class="research-section-icons">
+          <div class="research-icon">
+            <img class="lazy" data-original="assets/images/nexj/nexj-research-icon1.svg">
+            <p class="emphasize">Find the right fit</p>
+            <p class="description">Get paired with the right health provider.</p>
+          </div><!-- No spaces
+          --><div class="research-icon">
+            <img class="lazy" data-original="assets/images/nexj/nexj-research-icon2.svg">
+            <p class="emphasize">Prevent illness</p>
+            <p class="description">Treat yourself well: one step ahead.</p>
+          </div>
+        </div>
+        <div class="research-section-icons">
+          <div class="research-icon">
+            <img class="lazy" data-original="assets/images/nexj/nexj-research-icon3.svg">
+            <p class="emphasize">Doctor's notes</p>
+            <p class="description">Access visitation notes afterwards.</p>
+          </div><!-- No spaces
+          --><div class="research-icon">
+            <img class="lazy" data-original="assets/images/nexj/nexj-research-icon4.svg">
+            <p class="emphasize">Ask questions</p>
+            <p class="description">Get faster answers from your doctor.</p>
+          </div>
+        </div>
+        <div class="label">
+          <div class="blue-label-line label-line"></div>
+          <div class="label-title">Understanding user needs</div>
+          <div class="label-description">
+            Grasping user's needs/goals optimized UX.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="two-three-container">
+    <div class="container-width">
+      <div class="ia-section flex-container">
+        <div class="ia-left">
+          <img class="ia-section-img .nexj-ia-section-img lazy" data-original="assets/images/nexj/nexj-user-flow.svg">
+          <div class="label">
+            <div class="green-label-line label-line"></div>
+            <div class="label-title">User flow</div>
+            <div class="label-description">
+              Snippet of onboarding user flow.
+            </div>
+          </div>
+        </div>
+        <div class="ia-right">
+          <div class="section-number-top">
+            02
+          </div>
+          <div class="section-title">
+            Information Architecture
+          </div>
+          <div class="description">
+            Creating the navigation structure of a content intensive application required me to evaluate several different navigation models. Initially the menu was to be a top-of-screen horizontal menu. However, competitive research and audience feedback indicated we should use a left navigation scheme to surface multiple levels of navigation. I suggested this menu be collapsible - the intent was that navigation could primarily be accomplished via content within the page. At this stage I also worked through user flow details.
+          </div>
+        </div>
+      </div>
+      <div class="id-section flex-container">
+        <div class="id-section-wireframe">
+          <div class="section-number-top">
+              03
+          </div>
+          <div class="section-title">
+            Interaction Design
+          </div>
+          <div class="emphasize section-sub-title">Wireframes</div>
+          <div class="description">
+            When creating wireframes I triumphed over several design challenges. For instance, I had to display very complex data in a clear and visual manner within the dashboard. Thus began my search for the most appropriate data visualizations. I explored different kinds of charts and how they would function in context of one another. I also drew inspiration from my past experiences, best practices, UX frameworks, charting libraries and examples in online articles/textbooks. This stage involved many discussions with stakeholders.
+          </div>
+        </div>
+        <img class="lazy wireframe-img" data-original="assets/images/nexj/nexj-wireframe.png">
+        <div class="label wireframe-label">
+          <div class="green-label-line label-line"></div>
+          <div class="label-title">UX decisions</div>
+          <div class="label-description">
+            UX decisions involved evaluating trade offs between different components.
+          </div>
+        </div>
+        <div class="description id-section-wireframe">
+          These wireframes displayed the layout of the application's content and how the user will interact with it. We explored a number of options and conducted several iterations in order to expertly display information. Each layout and interaction decision was supported by concrete UX reasoning and justification.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="four-five-results-container">
+    <div class="container-width visual-design flex-container">
+      <div class="visual-img-description clustered-text">
+        <div class="section-number-top">
+            04
+        </div>
+        <div class="section-title">
+          Visual Design
+        </div>
+        <div class="description">
+          I worked closely with the visual designers to make sure that this stage followed the UX suggestions mentioned in the wireframes and didn't introduce any UX detractors. The result: a fresh and appealing app that is also usable. Sample visual mock I made can be seen on the right.
+        </div>
+        <div class="flex-container visual-bullet-point">
+          <img class="lazy" data-original="assets/images/nexj/nexj-visual-icon1.svg">
+          <span class="bullet-point-description description">
+            Mobile and desktop wireframes ensured optimized UX for any screen.
+          </span>
+        </div>
+        <div class="flex-container visual-bullet-point">
+          <img class="lazy" data-original="assets/images/nexj/nexj-visual-icon2.svg">
+          <span class="bullet-point-description description">
+            As a UX developer, I knew how important it was to utilize a grid system.
+          </span>
+        </div>
+        <div class="flex-container visual-bullet-point">
+          <img class="lazy" data-original="assets/images/nexj/nexj-visual-icon3.svg">
+          <span class="bullet-point-description description">
+            I checked color contrast ratios to make sure they satisfied the accessible contrast guidelines.
+          </span>
+        </div>
+      </div>
+      <img class="lazy side-visual visual-img-container" data-original="assets/images/nexj/nexj-visuals.png">
+    </div>
+    <div class="flex-container container-width prototype-section">
+      <img class="lazy side-visual prototype-img" data-original="assets/images/nexj/nexj-prototype.jpg">
+      <div class="img-description-prototype clustered-text">
+        <div class="section-number-top">
+            05
+        </div>
+        <div class="section-title">
+          Prototyping
+        </div>
+        <div class="description">
+          I created prototypes by translating designs (and wireframe concepts) into code. Prototypes I worked on included: fully functioning navigation, microinteractions, dialog boxes, tooltips and the entire Health Library page (this involved implementing a grid of interactive cards).
+        </div>
+      </div>
+    </div>
+    <div class="result-section">
+      <div class="flex-container container-width">
+        <div class="image-description-result clustered-text">
+          <div class="section-number-top">
+              06
+          </div>
+          <div class="section-title">
+            Results
+          </div>
+          <div class="description">
+            As the project moved into the development phase, I worked closely with other developers and quality assurance engineers to ensure that the information architecture, interaction design and visual design of the application was effectively translated into production. The final result was a innovative and engaging healthcare app.
+          </div>
+        </div>
+        <img class="lazy side-visual result-img" data-original="assets/images/nexj/nexj-result.png">
+      </div>
+    </div>
+  </div>
+  <div class="next-steps">
+    <div class="section-title">Feeling healthy now?</div>
+    <a href="allProjects" class="btn btn-blue-outline">SEE ALL PROJECTS</a>
+  </div>
+  <div class="next-prev-links flex-container">
+    <a class="link-box emphasize" href="iterisCaseStudy">
+      <img class="previous-link-arrow" src="assets/images/caseStudy-left-arrow.svg">
+      <span class="previous-link-text">Previous: Iteris</span>
+    </a>
+    <a class="link-box emphasize" href="eresourcesCaseStudy">
+      <span class="next-link-text">Next: eResources</span>
+      <img class="next-link-arrow" src="assets/images/caseStudy-right-arrow.svg">
+    </a>
+  </div>
+  {% include footer.html %}
+  <script src="assets/js/ext/jquery-3.1.1.min.js"></script>
+  <script src="assets/js/ext/jquery.lazyload.js"></script>
+  <script src="assets/js/caseStudy.js"></script>
+</body>
+</html>
