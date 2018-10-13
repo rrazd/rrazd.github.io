@@ -64,6 +64,8 @@
 			css3: true,
 			scrollingSpeed: 700,
 			responsiveHeight: 560,
+			fitToSectionDelay: 200,
+			autoScrolling: false,
 			normalScrollElements: '#mobile-menu',
 			afterRender: function() {
 				setTimeout( function () {
