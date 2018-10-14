@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  <meta name="author" content="Rashna Razdan">
+
+  <link rel="stylesheet" href="assets/css/homepage.css">
+  <link rel="stylesheet" href="assets/css/caseStudy.css">
+  <link rel="stylesheet" href="assets/css/zscalerCaseStudy.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="apple-touch-icon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="apple-touch-icon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffffff">
+
+  <style type="text/css">
+    .loader {
+      height: 100vh;
+      width: 100vw;
+      background-color: #ffffff;
+      opacity: 1;
+      transition: opacity 0.5s ease;
+      position: fixed;
+      z-index: 1;
+    }
+  </style>
+
+  <title>{{ page.title }}</title>
+
+</head>
+<body>
+  <div class="loader"></div>
+  {% include caseStudyHeader.html %}
+  <div class="zscaler-banner banner">
+    <div class="banner-layer zscaler-banner-layer">
+      <div class="container-width flex-container">
+        <div class="left-container">
+          <img class="zscaler-logo lazy" data-original="assets/images/zscaler/zscaler_logo.png">
+          <div class="banner-description" style="font-family: 'Proxima_nova_bold'">
+            <canvas class="canvas-text" data-text="Dashboard design"></canvas>
+            <canvas class="canvas-text" data-text="to monitor complex data."></canvas>
+            <!-- Creating the future of online healthcare. -->
+          </div>
+        </div>
+        <div class="right-container">
+          <img class="banner-display lazy" data-original="assets/images/zscaler/bannerImage.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project-summary">
+   <div class="container-width flex-container">
+      <div class="story">
+        <h3 class="zscaler-story-header">The story behind</h3>
+        <p class="description">
+          Zscaler’s flagship product, ZIA, delivers the complete security stack as a service from the cloud. ZIA was in need of an Operations Dashboard to get a synopsis of what’s going on in a network and easily spot issues. The dashboard had to be functional, beautiful, and provide an optimized UX.
+        </p>
+      </div>
+      <div class="role-section">
+        <div class="technologies">
+          <div class="header">Technologies</div>
+          <ul>
+            <li>FRAMER</li>
+            <li>PRINCIPLE</li>
+            <li>INVISION</li>
+            <li>SKETCH</li>
+          </ul>
+        </div>
+        <div class="solutions">
+          <div class="header">Solutions Provided</div>
+          <ul>
+            <li>RESEARCH</li>
+            <li>INFORMATION ARCHITECTURE</li>
+            <li>INTERACTION DESIGN</li>
+            <li>VISUAL DESIGN/PROTOTYPE</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="research-section">
+    <div class="container-width flex-container">
+      <div class="research-section-left">
+        <div class="section-number-top">
+          01
+        </div>
+        <div class="section-title">
+          Research
+        </div>
+        <div class="description">
+          This was a very agile project with a tight design deadline, to ensure that my designs would be feasible for the first release I had do talk to developers to understand what data could be readily fetched from the backend. There were certain API limitation and performance considerations that I had to be aware of which shaped my decisions going forward.
+        </div>
+        <img class="research-section-img zscaler-research-section-img lazy" data-original="assets/images/zscaler/research.png">
+        <div class="label">
+          <div class="blue-label-line label-line"></div>
+          <div class="label-title">Be aware of engineering limitations.</div>
+          <div class="label-description">
+            Understanding dev. limitations ensured I designed appropriate components like the one above.
+          </div>
+        </div>
+      </div>
+      <div class="zscaler-research-section-right research-section-right description">
+            I thoroughly researched competitor's dashboards to get an understanding of the various content structures, visual elements, key performance indicators and widget groupings that were utilized.
+            <br/>
+            Just like for any other project I wanted to understand the main users inside-out. I conducted interviews with sales engineers/end-users and analyzed existing user analytics to gain a better understanding of the target audience. Two primary personas identified and kept in mind for the duration of the project were: security professionals and app admins.
+      </div>
+    </div>
+  </div>
+  <div class="two-three-container zscaler-two-three-container">
+    <div class="container-width">
+      <div class="ia-section flex-container">
+        <div class="ia-left">
+          <img class="ia-section-img zscaler-ia-section-img lazy" data-original="assets/images/zscaler/information_architecture.png">
+          <div class="label">
+            <div class="green-label-line label-line"></div>
+            <div class="label-title">Understanding Zscaler’s Data Forwarding.</div>
+            <div class="label-description">
+              Zscaler’s unique cloud architecture affected how information would be grouped within widgets.
+            </div>
+          </div>
+        </div>
+        <div class="ia-right">
+          <div class="section-number-top">
+            02
+          </div>
+          <div class="section-title">
+            Information Architecture
+          </div>
+          <div class="description">
+            A solid information architecture is essential for good UX. I wanted to tell a cohesive story via the dashboard about the health and status of the network . In order to do this I had to understand several areas in the app from which useful data could be pulled. The remaining portion of this phase involved summarizing, grouping and prioritizing the plethora of information available and ensuring a logical flow as the user scanned the dashboard.
+          </div>
+        </div>
+      </div>
+      <div class="id-section zscaler-id-section flex-container">
+        <div class="id-section-wireframe">
+          <div class="section-number-top">
+              03
+          </div>
+          <div class="section-title">
+            Interaction Design
+          </div>
+          <div class="emphasize section-sub-title">Wireframes</div>
+          <div class="description">
+            The wireframing stage included brainstorming ideas with product and engineering teams  and creating draft wireframes on the whiteboard. I then started working on very low fidelity wireframes to be able to focus on the content hierarchy and information architecture without having to think about making everything look visually perfect, yet. By delivering work in different fidelity layers (low to high) I was able to quickly get feedback and test my UX hypotheses on which visualizations, interactions and drill downs served real users the best. <br/>
+            Some insightful feedback that affected the dashboard layout included:
+            <ul class="bullet-indent">
+              <li>Users wanted big bold stats at the very top of the page.</li>
+              <li>Users wanted a geographic representation of traffic distribution.</li>
+              <li>Reviews with the API team revealed that at the time only certain data sets could be fetched in real time.</li>
+              <li>Users wanted a brief explanation translating what each widget was visualizing.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="zscaler-wireframe-container">
+          <img class="lazy wireframe-img" data-original="assets/images/zscaler/dashboard_wireframe.png">
+          <div class="label wireframe-label">
+            <div class="green-label-line label-line"></div>
+            <div class="label-title">Allow for multitasking.</div>
+            <div class="label-description">
+              Smart data groupings allowed for users to scan multiple graphics simultaneously.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="zscaler-wireframe-graph-container">
+        <img class="lazy wireframe-img" data-original="assets/images/zscaler/wireframe_graph.png">
+        <div class="label wireframe-label">
+          <div class="green-label-line label-line"></div>
+          <div class="label-title">Memorable data visualizations.</div>
+          <div class="label-description">
+            Using appropriate visualizations with necessary interactive capabilities was critical.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="four-five-results-container zscaler-four-five-results-container">
+    <div class="container-width visual-design">
+      <div class="zscaler-vd-top-section flex-container">
+        <div class="visual-img-description zscaler-visual-img-description clustered-text flex-container">
+          <div class="section-number-top">
+              04
+          </div>
+          <div class="section-title">
+            Visual Design
+          </div>
+          <div class="description">
+            As soon as I had finished doing the wireframes and mapping out the Information Architecture, I created a Style Board to set the right visual tone of voice. I wanted the style to feel professional yet light weight and effortless. We already had existing dashboards however they looked outdated and in need of a revamp, thereby granting me extensive creative freedom. I still had to make sure the dashboard aligned with core characteristics found in our style guide; including the existing color palette, typography, icon-style and grid system. <br/>
+            I tested several color combinations, spacing and widget styles. The clear navigation structure and visualizations I layed out during the earlier stages was enhanced by utilizing the right visual design.
+          </div>
+          <!-- <div class="zscaler-vd-left-image-container">
+            <img class="lazy zscaler-vd-left-image" data-original="assets/images/zscaler/bubbleGraph.png">
+            <div class="label visual-label">
+              <div class="blue-label-line label-line"></div>
+              <div class="label-title">Creating a unique identity.</div>
+              <div class="label-description">
+                Sometimes including unique visualizations adds an interesting flair that engages the user.
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="visual-img-container">
+          <img class="lazy visual-image-1" data-original="assets/images/zscaler/visualImage_1.png">
+          <div class="label">
+            <div class="blue-label-line label-line"></div>
+            <div class="label-title">Colors are a key factor in user decisions.</div>
+            <div class="label-description">
+              Appropriate color combinations were utilized throughout for easy scanning.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-container zscaler-vd-bottom-section">
+        <div class="visual-image-2-container">
+          <img class="lazy visual-image-2" data-original="assets/images/zscaler/visualImage_2.png">
+          <div class="label visual-label">
+            <div class="blue-label-line label-line"></div>
+            <div class="label-title">Testing widgets with shadows.</div>
+            <div class="label-description">
+              Surveys revealed that our users preferred flat widget design as opposed to widgets with shadows.
+            </div>
+          </div>
+        </div>
+        <div class="visual-image-3-container">
+          <img class="lazy visual-image-3" data-original="assets/images/zscaler/visualImage_3.png">
+          <div class="label visual-label">
+            <div class="blue-label-line label-line"></div>
+            <div class="label-title">Arriving at the final design style.</div>
+            <div class="label-description">
+              A flat design with explanations for each widget (with an option to hide) was a win with our users.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container container-width zscaler-prototype-section prototype-section">
+      <div class="zscaler-img-description-prototype img-description-prototype clustered-text">
+        <div class="section-number-top">
+            05
+        </div>
+        <div class="section-title">
+          Prototyping
+        </div>
+        <div class="description">
+          I initially used Principle to present the designs to senior executives and highlight the interactions and drill down options.<br/>
+          To test the prototypes with users I utilized Framer since it allowed for more advanced animations such as the loading animation seen in the adjacent animation. <br/>
+          Subtle micro interactions such as animating the search icon into a cross once the serarch field receives focus had a huge role in making the dashboard feel dynamic.<br/>
+          The interactive Framer prototypes of our final designs helped us hone in on which interactions the users preferred. I made all the final dashboard widget interactions/animations modular while coding in Framer so that other designers could easily reuse and customize them in other dashboards within the app.
+        </div>
+      </div>
+      <video class="zscaler-video" loop muted autoplay>
+        <source src="assets/videos/zscalerFinalLoading.mp4" type="video/mp4">
+        <source src="assets/videos/zscalerFinalLoading.webm" type="video/webm">
+      </video>
+    </div>
+    <div class="result-section">
+      <div class="flex-container container-width">
+        <div class="image-description-result zscaler-image-description-result clustered-text">
+          <div class="section-number-top">
+              06
+          </div>
+          <div class="section-title">
+            Results
+          </div>
+          <div class="description">
+            Zscaler needed a intuitive and clean dashboard - that was going to display a lot of data. The final dashboard had multiple data visualizations that the user could easily follow and interact with. The qualitative user feedback was overwhelmingly positive and the average task completion rate was 89% based on a sample size of 20+ users.
+          </div>
+        </div>
+        <img class="lazy side-visual result-img zscaler-results-image" data-original="assets/images/zscaler/resultImage.png">
+      </div>
+    </div>
+  </div>
+  <div class="next-steps">
+    <div class="section-title">Feeling secure now?</div>
+    <a href="allProjects" class="btn btn-blue-outline">SEE ALL PROJECTS</a>
+  </div>
+  <div class="next-prev-links flex-container">
+    <a class="link-box emphasize" href="iterisCaseStudy">
+      <img class="previous-link-arrow" src="assets/images/caseStudy-left-arrow.svg">
+      <span class="previous-link-text">Previous: Iteris</span>
+    </a>
+    <a class="link-box emphasize" href="eresourcesCaseStudy">
+      <span class="next-link-text">Next: eResources</span>
+      <img class="next-link-arrow" src="assets/images/caseStudy-right-arrow.svg">
+    </a>
+  </div>
+  {% include footer.html %}
+  <script src="assets/js/ext/jquery-3.1.1.min.js"></script>
+  <script src="assets/js/ext/jquery.lazyload.js"></script>
+  <script src="assets/js/caseStudy.js"></script>
+</body>
+</html>

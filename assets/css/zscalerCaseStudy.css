@@ -1,0 +1,214 @@
+/* Main Header Banner */
+.zscaler-banner {
+  background-image: url(../images/zscaler/banner_bg.png);
+}
+.zscaler-banner .banner-display {
+  max-height: 70%;
+  max-width: 75%;
+}
+.zscaler-banner-layer {
+  background-color: transparent;
+}
+.zscaler-banner .right-container {
+  text-align: right;
+}
+img.zscaler-logo {
+  width: 57.61%;
+  padding-bottom: 10px;
+}
+/* End of Main Header Banner */
+
+/* Research Summary */
+.zscaler-research-section-right {
+  align-self: flex-start;
+  padding-top: 74px;
+  width: 39%;
+}
+.zscaler-research-section-img {
+  width: 96.27%;
+}
+.zscaler-story-header {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+/* End of Research Summary */
+
+/* IA */
+.zscaler-two-three-container {
+  background: none;
+  background-color: #1c1d1d;
+}
+.zscaler-two-three-container .ia-left {
+  width: 58.6%;
+  align-self: flex-start;
+}
+.zscaler-two-three-container .ia-right {
+  width: 35.6%;
+}
+.zscaler-ia-section-img {
+  padding-bottom: 1px;
+}
+.zscaler-id-section {
+  flex-direction: row;
+}
+.bullet-indent {
+  margin-left: 16px;
+}
+.zscaler-id-section .id-section-wireframe {
+  width: 37%;
+}
+.zscaler-wireframe-container {
+  width: 55%;
+}
+.zscaler-wireframe-container .wireframe-img {
+  width: 100%;
+}
+/* End of IA */
+
+/* Visuals */
+.zscaler-visual-img-description {
+  padding-top: 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.zscaler-vd-left-image-container {
+  align-self: flex-end;
+}
+.zscaler-four-five-results-container {
+  padding-top: 126px;
+}
+.zscaler-vd-left-image {
+  width: 100%;
+  padding-top: 35px;
+}
+.zscaler-vd-top-section {
+  align-items: flex-start;
+}
+.visual-label {
+  padding-top: 30px;
+}
+.zscaler-vd-bottom-section {
+  padding-top: 70px;
+}
+.visual-image-2-container,
+.visual-image-3-container {
+  width: 48%;
+}
+.visual-image-1 {
+  padding-bottom: 10px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.visual-image-2,
+.visual-image-3 {
+  padding-top: 10px;
+  width: 100%;
+}
+
+/* End of Visuals */
+
+/* Prototyping */
+.zscaler-img-description-prototype {
+  padding-top: 0;
+}
+.zscaler-video {
+  max-width: 50%;
+  max-height: 100%;
+}
+.zscaler-prototype-section {
+  margin-top: 160px;
+}
+/* End of Prototyping */
+
+/* Results */
+.zscaler-results-image {
+  align-self: flex-start;
+  padding-top: 70px;
+  width: 66.76%;
+  margin-right: -56px;
+}
+.zscaler-image-description-result {
+  width: 30%;
+}
+/* End of Results */
+
+@media only screen and (max-width: 845px) {
+  .zscaler-banner .right-container {
+    text-align: center;
+  }
+  .zscaler-banner .banner-display {
+    max-width: 42%;
+  }
+  .zscaler-research-section-right {
+    padding-top: 44px;
+    width: 100%;
+  }
+  .zscaler-research-section-img {
+    width: 76%;
+  }
+  .zscaler-two-three-container .ia-left,
+  .zscaler-two-three-container .ia-right {
+    width: 100%;
+  }
+  .zscaler-two-three-container .ia-left {
+    max-width: 90%;
+    padding-top: 15px;
+  }
+  .zscaler-id-section .id-section-wireframe {
+    width: 100%;
+  }
+  .zscaler-wireframe-container {
+    width: 100%;
+  }
+  .zscaler-wireframe-graph-container {
+    padding: 0 50px;
+  }
+  .zscaler-vd-top-section.flex-container {
+    flex-direction: column;
+  }
+  .zscaler-four-five-results-container {
+    padding-top: 82px;
+  }
+  .zscaler-four-five-results-container .visual-design {
+    padding: 0 50px;
+    width: 100%;
+  }
+  .zscaler-vd-top-section {
+    align-items: flex-start;
+  }
+  .zscaler-vd-top-section .visual-img-container {
+    max-width: 90%;
+  }
+  .zscaler-vd-bottom-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .visual-image-2-container,
+  .visual-image-3-container {
+    width: 90%;
+    padding-bottom: 50px;
+  }
+  .visual-image-3-container .visual-label {
+    padding-top: 15px;
+  }
+  .zscaler-prototype-section.flex-container {
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: flex-start;
+  }
+  .zscaler-video {
+     max-width: 80%;
+  }
+  .zscaler-image-description-result {
+    width: 100%;
+  }
+  .zscaler-results-image {
+    padding-top: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .zscaler-image-description-result {
+    padding-bottom: 0;
+  }
+}
+
