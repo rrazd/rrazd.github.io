@@ -167,7 +167,7 @@ img.zscaler-logo {
     flex-direction: column;
   }
   .zscaler-four-five-results-container {
-    padding-top: 82px;
+    padding-top: 40px;
   }
   .zscaler-four-five-results-container .visual-design {
     padding: 0 50px;
@@ -193,7 +193,7 @@ img.zscaler-logo {
   }
   .zscaler-prototype-section.flex-container {
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 0;
     align-items: flex-start;
   }
   .zscaler-video {
@@ -209,6 +209,12 @@ img.zscaler-logo {
   }
   .zscaler-image-description-result {
     padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .zscaler-four-five-results-container .visual-design {
+    padding: 0 20px;
   }
 }
 

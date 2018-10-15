@@ -593,7 +593,8 @@ img.banner-display {
   .id-section.flex-container,
   .prototype-section.flex-container,
   .visual-design.flex-container,
-  .result-section .flex-container {
+  .result-section .flex-container,
+  .zscaler-wireframe-graph-container.zscaler-wireframe-graph-container {
     padding-left: 20px;
     padding-right: 20px;
   }
