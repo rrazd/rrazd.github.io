@@ -62,10 +62,8 @@
 			anchors: ["welcome", "caseStudy0", "caseStudy1", "caseStudy2", "caseStudy3", "allProjects", "about", "contact"],
 			menu: '#page-menu, #top-menu',
 			css3: true,
-			scrollingSpeed: 300,
+			scrollingSpeed: 700,
 			responsiveHeight: 560,
-			fitToSectionDelay: 200,
-			autoScrolling: false,
 			normalScrollElements: '#mobile-menu',
 			afterRender: function() {
 				setTimeout( function () {
