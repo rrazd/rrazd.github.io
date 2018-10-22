@@ -51,11 +51,13 @@
 .slider-content {
   display: flex;
   height: 560px;
+  justify-content: space-between;
 }
 .slider-content-text {
-  width: 30%;
+  width: 23%;
   height: 100%;
   position: relative;
+  padding-top: 20px;
 }
 .slider-content-text-item,
 .slider-content-image-container {
@@ -85,4 +87,9 @@
   width: 70%;
   height: 100%;
   position: relative;
+}
+@media only screen and (max-width: 845px) {
+  .slider {
+    padding: 50px;
+  }
 }

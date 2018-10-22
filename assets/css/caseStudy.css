@@ -498,6 +498,7 @@ img.banner-display {
  .research-section .flex-container,
  .id-section.flex-container,
  .visual-design.flex-container,
+ .hpe-vd-descriptions.flex-container,
  .result-section .flex-container {
     flex-direction: column;
     width: 100%;
