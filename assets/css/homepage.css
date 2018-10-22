@@ -92,11 +92,13 @@ header .top-menu {
   float: right;
   font-family: 'Proxima_nova_sbold', serif;
 }
+ul {
+  list-style: none;
+}
 header .top-menu ul, header .top-menu ul * {
   float: left;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 header .top-menu ul li {
   float: left;

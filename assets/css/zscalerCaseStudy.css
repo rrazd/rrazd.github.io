@@ -52,6 +52,7 @@ img.zscaler-logo {
   flex-direction: row;
 }
 .bullet-indent {
+  list-style: initial;
   margin-left: 16px;
 }
 .zscaler-id-section .id-section-wireframe {

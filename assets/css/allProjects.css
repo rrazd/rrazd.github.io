@@ -90,8 +90,6 @@
   position: absolute;
   top: 0;
 }
-.project-text-container.preview-text {
-}
 .project-text-container.project-text-container-visible {
   opacity: 1;
   visibility: visible;
