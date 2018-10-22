@@ -1,6 +1,6 @@
 /* Main Header Banner */
-.iteris-banner {
-  background-image: url(../images/iteris/iteris-banner.jpg);
+.hpe-banner {
+  background-image: url(../images/hpe/hpe-banner.jpg);
   background-color: rgba(67, 115, 170, 0.52);
 }
 img.nexj-logo {
@@ -10,7 +10,11 @@ img.nexj-logo {
 /* End of Main Header Banner */
 
 /* Research Summary */
-.iteris-project-summary {
+.hpe-research-section-right {
+  align-self: flex-start;
+  padding-top: 79px;
+}
+.hpe-project-summary {
   background: linear-gradient(0deg,rgba(0,64,132,0) -5%,rgba(0,64,131,.1) 43%);
 }
 .nexj-research-section-img {
@@ -19,7 +23,7 @@ img.nexj-logo {
 /* End of Research Summary */
 
 /* IA */
-.iteris-two-three-container {
+.hpe-two-three-container {
   padding-top: 130px;
 }
 .stripe {
@@ -50,10 +54,10 @@ img.nexj-logo {
 .two-three-container .section-title {
   color: #4A4A4A;
 }
-.iteris-wireframe-label {
+.hpe-wireframe-label {
   padding-top: 0;
 }
-.iteris-sitemap-container.flex-container {
+.hpe-sitemap-container.flex-container {
   padding-top: 80px;
   padding-bottom: 50px;
 }
@@ -64,13 +68,24 @@ img.nexj-logo {
 /* End of IA */
 
 /* Visuals */
-.iteris-visual-img-desciption.clustered-text {
+.hpe-visual-img-desciption.clustered-text {
   padding-top: 60px;
+}
+.hpe-vd-descriptions {
+  padding: 60px 0;
+  align-content: space-between;
+  align-items: flex-start;
+}
+.hpe-vd-description1 {
+  width: 38%;
+}
+.hpe-vd-description2 {
+  width: 49%;
 }
 /* End of Visuals */
 
 /* Prototyping */
-.iteris-img-description-prototype, .iteris-prototype-img {
+.hpe-img-description-prototype, .hpe-prototype-img {
   align-self: center;
 }
 /* End of Prototyping */
@@ -79,7 +94,7 @@ img.nexj-logo {
 /* End of Results */
 
 @media only screen and (max-width: 845px) {
-  .iteris-sitemap-container.flex-container {
+  .hpe-sitemap-container.flex-container {
     padding-top: 30px;
     padding-bottom: 0px;
   }
