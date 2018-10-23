@@ -1,3 +1,6 @@
+.slider {
+  padding-top: 40px;
+}
 /* slider nav */
 .slider-nav {
   list-style: none;
@@ -91,5 +94,6 @@
 @media only screen and (max-width: 845px) {
   .slider {
     padding: 50px;
+    display: none;
   }
 }
