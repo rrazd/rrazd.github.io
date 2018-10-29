@@ -125,6 +125,11 @@ img.hpe-logo {
     padding: 0 50px;
   }
 }
+@media only screen and (max-width: 455px) {
+  .hpe-stacked-image-container{
+    padding: 0 20px;
+  }
+}
 .hpe-stacked-visual-img {
   padding-top: 50px;
   width: 100%;
@@ -190,5 +195,10 @@ img.hpe-logo {
   }
   .hpe-result-section {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .hpe-interactive-section {
+    padding: 0 20px;
   }
 }
