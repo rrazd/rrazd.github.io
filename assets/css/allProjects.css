@@ -220,7 +220,7 @@
 .zscaler .project-bg {
   background-image: linear-gradient(-180deg,rgba(30, 62, 111, 0.85) 0,rgba(61, 64, 48, 0.82) 100%);
 }
-.hpe .project-bg, .mcafee .project-bg, .riverbed .project-bg {
+.hpe .project-bg, .mcafee .project-bg, .riverbed .project-bg, .linkedin .project-bg {
   background-image: linear-gradient(-180deg,rgba(59, 62, 66, 0.38) 0,rgba(55, 57, 64, 0.68) 100%);
 }
 
@@ -266,13 +266,13 @@
   width: 100%;
 }
 .linkedin-admin-center .project-img {
-  background-image: url(../images/linkedin/admin_center_banner.jpg);
+  background-image: url(../images/linkedin/admin_center_bg_narrow.jpg);
 }
 .linkedin-product-catalog .project-img {
-  background-image: url(../images/linkedin/product_catalog_banner.jpg);
+  background-image: url(../images/linkedin/product_catalog_bg_narrow.jpg);
 }
 .linkedin-solution-builder .project-img {
-  background-image: url(../images/linkedin/solution_builder_banner.jpg);
+  background-image: url(../images/linkedin/solution_builder_bg_narrow.jpg);
 }
 .zscaler .project-img {
   background-image: url(../images/allProjects/zscaler.jpg);
@@ -402,6 +402,9 @@
   }
   .zscaler .project-bg {
     background-image: linear-gradient(-180deg,rgba(52, 69, 97, 0.58) 0,rgba(48, 53, 64, 0.75) 100%);
+  }
+  .linkedin .project-bg {
+    background-image: linear-gradient(-180deg,rgba(52, 69, 97, 0.68) 0,rgba(48, 53, 64, 0.85) 100%);
   }
 }
 @media only screen and (max-width: 645px) {
