@@ -266,13 +266,13 @@
   width: 100%;
 }
 .linkedin-admin-center .project-img {
-  background-image: url(../images/linkedin/admin_center_bg.jpg);
+  background-image: url(../images/linkedin/admin_center_banner.jpg);
 }
 .linkedin-product-catalog .project-img {
-  background-image: url(../images/linkedin/product_catalog_bg.jpg);
+  background-image: url(../images/linkedin/product_catalog_banner.jpg);
 }
 .linkedin-solution-builder .project-img {
-  background-image: url(../images/linkedin/solution_builder_bg.jpg);
+  background-image: url(../images/linkedin/solution_builder_banner.jpg);
 }
 .zscaler .project-img {
   background-image: url(../images/allProjects/zscaler.jpg);
@@ -420,13 +420,13 @@
 }
 @media only screen and (min-width: 846px) {
   .linkedin-admin-center .project-img {
-    background-image: url(../images/linkedin/admin_center_bg.jpg);
+    background-image: url(../images/linkedin/admin_center_banner.jpg);
   }
   .linkedin-product-catalog .project-img {
-    background-image: url(../images/linkedin/product_catalog_bg.jpg);
+    background-image: url(../images/linkedin/product_catalog_banner.jpg);
   }
   .linkedin-solution-builder .project-img {
-    background-image: url(../images/linkedin/solution_builder_bg.jpg);
+    background-image: url(../images/linkedin/solution_builder_banner.jpg);
   }
   .zscaler .project-img {
     background-image: url(../images/allProjects/zscaler-banner.jpg);
