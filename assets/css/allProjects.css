@@ -403,9 +403,6 @@
   .zscaler .project-bg {
     background-image: linear-gradient(-180deg,rgba(52, 69, 97, 0.58) 0,rgba(48, 53, 64, 0.75) 100%);
   }
-  .linkedin .project-bg {
-    background-image: linear-gradient(-180deg,rgba(52, 69, 97, 0.68) 0,rgba(48, 53, 64, 0.85) 100%);
-  }
 }
 @media only screen and (max-width: 645px) {
   .projects-page-title-container {
